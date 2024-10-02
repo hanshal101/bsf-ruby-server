@@ -5,7 +5,7 @@ packages {
 }
 
 oci "pkgs" {
-  name          = "rubydev"
+  name          = "ttl.sh/ruby-server"
   layers        = ["split(packages.runtime)", "split(packages.dev)"]
   isBase        = true
   cmd           = []
